@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Please Fill The Form To Complete Registration"-->
+            <!--android:textColor="#00509d"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:textSize="18sp"-->
+            <!--android:gravity="center"-->
+            <!--android:fontFamily="serif"/>-->
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/a"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Email"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:hint="Email:"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Password"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:hint="Password:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Name"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="textPersonName"
+            android:textStyle="bold"
+            android:hint="Name:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_margin="5dp">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Male"
+                android:textColor="#000"
+                android:checked="true"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Female"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Age"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:hint="Age:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Blood Pressure"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etBp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:hint="Blood Pressure:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Weight"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:hint="Weight:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Contact"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="phone"
+            android:textStyle="bold"
+            android:hint="Contact:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Enter Address"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/et"
+            android:fontFamily="serif"
+            android:textColor="#000"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:hint="Address:"
+            android:gravity="center"
+            android:textSize="17sp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn10"
+            android:text="Register"
+            android:onClick="register"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</ScrollView>

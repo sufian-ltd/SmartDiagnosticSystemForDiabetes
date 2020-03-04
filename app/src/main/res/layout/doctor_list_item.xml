@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:orientation="horizontal"
+    android:background="@drawable/btn">
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="85dp"
+        android:layout_margin="10dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:background="@drawable/doctor"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr. Abu Sufian"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:textColor="#00509d" />
+        <TextView
+            android:id="@+id/tvQualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MBBS,MD.FCPS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_margin="2dp"
+            android:textColor="#f7000b" />
+        <TextView
+            android:id="@+id/tvAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available : 10AM - 2.00PM"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_margin="2dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tvFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fee : 500tk"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+</LinearLayout>

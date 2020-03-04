@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d0dfff"
+    android:gravity="center"
+    tools:context=".DashboardActivity">
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Smart Diagnostic System For Diabetes"-->
+            <!--android:textColor="#00509d"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="19sp"-->
+            <!--android:padding="15dp"-->
+            <!--android:gravity="center"-->
+            <!--android:fontFamily="serif"/>-->
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/hospital2"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:fontFamily="serif"
+            android:onClick="appointment"
+            android:text="Appointment"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:onClick="labTest"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Lab test report"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:fontFamily="serif"
+            android:onClick="progressReport"
+            android:textStyle="bold"
+            android:text="Progress report"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:onClick="prescription"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Prescription"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:onClick="foodPlan"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Food Plan"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:onClick="newProgressReport"
+            android:text="New Progress Report"/>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn10"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:onClick="infoClick"
+            android:text="Diabetic Information"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+</LinearLayout>

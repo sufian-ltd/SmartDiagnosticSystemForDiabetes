@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00509d"
+    tools:context=".DiabeticInformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/b"/>
+
+        <TextView
+            android:id="@+id/tvWhatIsDiabetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is diabetes?"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvFastFoodInforgraphics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are the Fast Food Info-Graphics?"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvIrishFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Irish Food And Drinks Export Performance in 2013?"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvDiabetesYourHeart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Diabetes And Your Hearts..!!!"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvHealthyEating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Healthy Eating Plate For Diabetes"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvSignificieant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What Are The Significance Of Diet In Heart Diseases?"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvHeartDiseasesfacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What Are The Heart Diseases Facts?"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvInfoGraphic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What Are The Diabetes Info-Graphics?"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Red For American Heart Month...!!!!!?"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvSalty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View The Salty Six For Kids...!!!!!"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tvheart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heart Healthy Foods Prevent Heart Diseases Naturally...!!!!!"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
